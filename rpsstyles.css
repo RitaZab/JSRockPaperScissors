@@ -1,0 +1,53 @@
+body{margin:0;
+    padding:0}
+main{
+    margin:10px 100px;
+    width:90%;
+    display:grid;
+    grid-template-columns: 33% 33% 33%;
+    grid-template-rows: 5;
+    border: solid black 3px;
+}
+h1{color:red;
+    grid-column: 1/ span 4;
+    
+    grid-row: 1;
+    border: solid black 3px;
+    text-align: center;
+}
+.player-buttons{
+    border:solid black 3px;
+    grid-column: 1;
+    grid-row:2/ span 5;
+    text-align: center;
+    
+}
+.player-side{
+    border:solid black 3px;
+    grid-column: 2 ;
+    grid-row: 2/ span 2;
+    
+    text-align: center;
+}
+.computer-side{
+    border:solid black 3px;
+    grid-column: 3/ span 2;
+    grid-row: 2 / span 2;
+    
+    text-align: center;
+}
+.result{
+    border: solid black 3px;
+    grid-column:2/span 3;
+    grid-row:4;
+    text-align: center;
+}
+.points{
+    border: solid black 3px;
+    grid-column:2/span 3;
+    grid-row:5;
+    text-align: center;
+}
+.button{
+    max-width:50px;
+}
