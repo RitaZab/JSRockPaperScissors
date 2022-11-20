@@ -3,6 +3,7 @@ body{margin:0;
 main{
     margin:10px 100px;
     width:90%;
+    height:90vh;
     display:grid;
     grid-template-columns: 33% 33% 33%;
     grid-template-rows: 5;
@@ -50,4 +51,7 @@ h1{color:red;
 }
 .button{
     max-width:50px;
+}
+.button:hover{
+    cursor:pointer;
 }
