@@ -50,8 +50,10 @@ h1{color:red;
     text-align: center;
 }
 .button{
-    max-width:50px;
+    max-width:250px;
 }
 .button:hover{
     cursor:pointer;
 }
+.player-icons, .computer-icons {display: none;}
+.active {display:block}
