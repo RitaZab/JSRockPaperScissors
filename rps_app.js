@@ -18,7 +18,7 @@ console.log(activeicons)
 
 function giveResult() {
     if (playerChoice === computerChoice) {
-        result = "It'a draw"
+        result = "It's a draw"
     }
    
     if (playerChoice === "rock") {
